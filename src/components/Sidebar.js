@@ -2,26 +2,13 @@ import Link from "./Link";
 
 const Sidebar = () => {
 	const links = [
-		{
-			label: 'Home',
-			path: '/'
-		},
-		{
-			label: 'Accordion',
-			path: '/accordion'
-		},
-		{
-			label: 'Button',
-			path: '/button'
-		},
-		{
-			label: 'Dropdown',
-			path: '/dropdown'
-		},
-		{
-			label: 'Modal',
-			path: '/modal'
-		}
+		{label: 'Home', path: '/'},
+		{label: 'Accordion', path: '/accordion'},
+		{label: 'Button', path: '/button'},
+		{label: 'Counter', path: '/counter'},
+		{label: 'Dropdown', path: '/dropdown'},
+		{label: 'Modal', path: '/modal'},
+		{label: 'Table', path: '/table'}
 	];
 
 	const renderedLinks = links.map((link) => {
